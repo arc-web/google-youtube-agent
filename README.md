@@ -1,3 +1,13 @@
+<div align="center">
+
+<a href="https://arc-web.github.io/google-youtube-agent/">
+  <img src="https://img.shields.io/badge/🎬_Interactive_Presentation-View_Live-7B2FBE?style=for-the-badge&labelColor=0F0F1A&color=7B2FBE" alt="View Interactive Presentation" />
+</a>
+
+</div>
+
+---
+
 # 🎬 YouTube Content Management Agent
 
 An AI-powered YouTube management platform that integrates with the YouTube Data API v3 through MCP (Model Context Protocol) to provide comprehensive content management, analytics, and optimization capabilities.
