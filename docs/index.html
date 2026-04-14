@@ -133,70 +133,195 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 <div id="slides">
 <div class="slide active" id="slide-1">
     
-    <div class="blob" style="width:590.9474487400024px;height:501.3859789947338px;background:var(--primary);top:-128.21318566443068px;right:-100.93852010210824px;opacity:0.07"></div>
-    <div class="blob" style="width:350.24868667143767px;height:325.0744131601333px;background:var(--accent);bottom:-99.22652610598472px;left:-47.20453888559365px;opacity:0.06"></div>
+    <div class="blob" style="width:551.3817027835215px;height:461.2959953710352px;background:var(--primary);top:-84.09985075463263px;right:-75.95649651361565px;opacity:0.07"></div>
+    <div class="blob" style="width:302.9639113446015px;height:381.28019205843384px;background:var(--accent);bottom:-115.9249690495472px;right:-40.646351712098415px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="hero-badge">ARC Web</div>
-      <h1>Google Youtube Agent<br>Delivering <span class="grad">impact</span></h1>
-      <div class="sub">An AI-powered YouTube management platform that integrates with the YouTube Data API v3 through MCP (Model Context Protocol) to provide comprehensive content management, analytics, and optimization capabilities.</div>
-      <div class="tags-row"><span class="tag">Python</span><span class="tag">Open Source</span><span class="tag">Production</span></div>
+      <h1>Google Youtube Agent<br><span class="grad">Python</span></h1>
+      <div class="sub"><a href="https://arc-web.github.io/google-youtube-agent/"></div>
+      <div class="tags-row"><span class="tag">Python</span><span class="tag">Open Source</span></div>
     </div>
   </div>
 
 <div class="slide" id="slide-2">
     
-    <div class="blob" style="width:448.0181643853685px;height:556.2012393600314px;background:var(--primary);top:-116.59043846885442px;right:-93.92173426440175px;opacity:0.07"></div>
-    <div class="blob" style="width:411.8811961740423px;height:434.11847576627565px;background:var(--accent);bottom:-100.64592337623739px;left:-64.31079198864882px;opacity:0.06"></div>
+    <div class="blob" style="width:583.8166894875293px;height:483.8478449938557px;background:var(--primary);top:-145.38246457048342px;right:-110.4021679424412px;opacity:0.07"></div>
+    <div class="blob" style="width:364.28755101907205px;height:357.90123663009746px;background:var(--accent);bottom:-94.96718361068727px;left:-49.72028362667699px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">By the numbers</div>
-      <h2>Real <span class="grad">impact</span></h2>
-      <div class="stat-grid">
-    <div class="stat">
-      <div class="stat-number">3</div>
-      <div class="stat-label">through MCP</div>
+      <div class="eyebrow">The problem</div>
+      <h2>What's <span class="grad">broken</span> without this</h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">😤</span>
+      <div class="card-title">Manual video metadata entry</div>
+      <div class="card-desc">YouTube creators waste hours manually writing titles, descriptions, and tags for each video instead of focusing on content creation.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">analytics</div>
+    <div class="card">
+      <span class="card-icon">💸</span>
+      <div class="card-title">Missed monetization opportunities</div>
+      <div class="card-desc">Channels lack visibility into which videos drive revenue and audience segments, making it impossible to optimize for earnings.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">and optimization capabilities</div>
+    <div class="card">
+      <span class="card-icon">🔁</span>
+      <div class="card-title">Disconnected analytics silos</div>
+      <div class="card-desc">Performance data, audience insights, and engagement metrics are scattered across YouTube Studio, making strategic decisions slow and incomplete.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">analytics</div>
+    <div class="card">
+      <span class="card-icon">📅</span>
+      <div class="card-title">No batch publishing workflow</div>
+      <div class="card-desc">Uploading multiple videos requires repetitive manual steps through YouTube's UI instead of scheduling and publishing in bulk.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Guessing content strategy</div>
+      <div class="card-desc">Creators lack data-driven recommendations on what topics, formats, or posting schedules will resonate with their specific audience.</div>
     </div></div>
-      
     </div>
   </div>
 
 <div class="slide" id="slide-3">
     
-    <div class="blob" style="width:599.8642392559286px;height:500.60145598851227px;background:var(--primary);top:-119.49569707565954px;left:-113.86488364771441px;opacity:0.07"></div>
-    <div class="blob" style="width:406.87530659369446px;height:406.889228186154px;background:var(--accent);bottom:-89.80249998534347px;right:-73.31794151566808px;opacity:0.06"></div>
+    <div class="blob" style="width:488.21148540234464px;height:501.11832168868364px;background:var(--primary);top:-85.4229533994402px;left:-108.94639339084009px;opacity:0.07"></div>
+    <div class="blob" style="width:386.6246276396645px;height:440.64743577297895px;background:var(--accent);bottom:-60.33268250632185px;left:-53.01321504849554px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">Under the hood</div>
-      <h2>How it <span class="grad">works</span></h2>
-      <div class="sub">Real code from the repository</div>
-      <div class="code-block"><div>┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐</div><div>│   Web Interface │    │   API Gateway   │    │   AI Engine     │</div><div>│   (Streamlit)   │◄──►│   (FastAPI)     │◄──►│   (LangChain)   │</div><div>└─────────────────┘    └─────────────────┘    └─────────────────┘</div><div>                                │</div><div>                                ▼</div><div>┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐</div><div>│   MCP YouTube   │    │   Content       │    │   Analytics     │</div><div>│   Integration   │◄──►│   Managemen</div></div>
+      <div class="eyebrow">The difference</div>
+      <h2>Why it <span class="grad">matters</span></h2>
+      
+      <div class="compare">
+        <div class="compare-col bad">
+      <div class="compare-head"><span class="cross">✗</span> Without</div>
+      <div class="compare-item">Manual work</div><div class="compare-item">Slow iteration</div><div class="compare-item">Repeated mistakes</div>
+    </div>
+        <div class="compare-col good">
+      <div class="compare-head"><span class="check">✓</span> With this</div>
+      <div class="compare-item">Batch metadata optimization across 50+ videos without manual YouTube Studio edits</div><div class="compare-item">Real-time revenue attribution by video and audience segment instead of guessing</div><div class="compare-item">AI-generated SEO descriptions and tags that increase discoverability without creator effort</div><div class="compare-item">Scheduled bulk uploads and playlist organization in one workflow instead of repetitive UI clicks</div><div class="compare-item">Audience demographic insights tied directly to video performance for targeted content decisions</div>
+    </div>
+      </div>
     </div>
   </div>
 
 <div class="slide" id="slide-4">
     
-    <div class="blob" style="width:580.3834286938148px;height:524.6503752035576px;background:var(--primary);top:-83.13343478129444px;right:-92.51075554093225px;opacity:0.07"></div>
-    <div class="blob" style="width:314.79792611626067px;height:344.8948122150729px;background:var(--accent);bottom:-100.67429044275117px;left:-72.4700300687408px;opacity:0.06"></div>
+    <div class="blob" style="width:485.9262842256545px;height:529.3980027627963px;background:var(--primary);top:-148.7041862133516px;right:-67.49111805369579px;opacity:0.07"></div>
+    <div class="blob" style="width:338.6192263760762px;height:373.7301017015004px;background:var(--accent);bottom:-115.81734767474276px;right:-60.588462254076745px;opacity:0.06"></div>
     <div class="slide-content">
-      <blockquote>      args: [/Users/home/aimacpro/7_tools/mcp_tools/servers/youtube_mcp/dist/server.js],</blockquote>
+      <div class="eyebrow">Under the hood</div>
+      <h2>How it <span class="grad">works</span></h2>
+      
+      <div class="flow">
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(123,47,190,0.12);border:1px solid rgba(123,47,190,0.2)">📥</div>
+      <div class="flow-body">
+        <div class="flow-title">Connect YouTube channel</div>
+        <div class="flow-desc">User authenticates their YouTube channel via OAuth and grants the agent access to YouTube Data API v3.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.2)">⚙️</div>
+      <div class="flow-body">
+        <div class="flow-title">Process with MCP protocol</div>
+        <div class="flow-desc">The agent queries video metadata, analytics, audience demographics, and engagement data through YouTube Data API v3 endpoints via MCP, then generates SEO-optimized titles, descriptions, and thumbnail recommendations using AI.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.2)">📤</div>
+      <div class="flow-body">
+        <div class="flow-title">Deliver actionable insights</div>
+        <div class="flow-desc">User receives batch-ready video updates, performance trends, monetization breakdowns, and content strategy recommendations they can apply immediately or schedule for automation.</div>
+        
+      </div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-5">
+    
+    <div class="blob" style="width:453.58600169551295px;height:524.7688376253996px;background:var(--primary);top:-100.0211678146238px;right:-77.89088327323604px;opacity:0.07"></div>
+    <div class="blob" style="width:374.86576392227465px;height:317.5519856432281px;background:var(--accent);bottom:-74.62642450824548px;right:-54.91016951315732px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">What it does</div>
+      <h2>Core <span class="grad">capabilities</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">⚡</span>
+      <div class="card-title">Fast</div>
+      <div class="card-desc">Optimized for speed and efficiency.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Reliable</div>
+      <div class="card-desc">Built to work consistently.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔌</span>
+      <div class="card-title">Integrates</div>
+      <div class="card-desc">Works with your existing tools.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-6">
+    
+    <div class="blob" style="width:531.417267782973px;height:502.1350731963938px;background:var(--primary);top:-149.94432409747282px;left:-62.31819087879827px;opacity:0.07"></div>
+    <div class="blob" style="width:409.8304862006365px;height:441.3582312759187px;background:var(--accent);bottom:-94.33848986494382px;left:-60.13809023727804px;opacity:0.06"></div>
+    <div class="slide-content">
+      <blockquote>I can pull analytics, generate optimized metadata, and schedule uploads for an entire content calendar in minutes instead of spending a day in YouTube Studio.</blockquote>
       <div class="line" style="margin-top:48px"></div>
       <div class="sub">arc-web/google-youtube-agent</div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-7">
+    
+    <div class="blob" style="width:589.0748023693418px;height:529.1325293176274px;background:var(--primary);top:-143.9606057064605px;left:-85.11327129439522px;opacity:0.07"></div>
+    <div class="blob" style="width:416.07835775362355px;height:388.3309227406284px;background:var(--accent);bottom:-65.34231143248415px;left:-54.450643577214564px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Codebase</div>
+      <h2>Built with <span class="grad">care</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">💻</span>
+      <div class="card-title">Python</div>
+      <div class="card-desc">Built in Python for type safety and reliability.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🏗️</span>
+      <div class="card-title">Architecture</div>
+      <div class="card-desc">AI Agent</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📦</span>
+      <div class="card-title">Key deps</div>
+      <div class="card-desc"># YouTube Content Management Agent Requirements, # Core dependencies, fastapi</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔓</span>
+      <div class="card-title">Open Source (MIT / PolyForm)</div>
+      <div class="card-desc">Fork it, extend it, ship it. It's yours.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-8">
+    
+    <div class="blob" style="width:471.43575755031094px;height:549.1575652617236px;background:var(--primary);top:-84.01831542147075px;left:-69.91765084534036px;opacity:0.07"></div>
+    <div class="blob" style="width:418.58102946660176px;height:326.86362512712844px;background:var(--accent);bottom:-67.3804018861603px;left:-67.36739740952859px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Built by</div>
+      <h2>Mike Ensor<br><span class="grad">Arc Web</span></h2>
+      <div class="sub">AI automation, marketing technology, building tools that work.</div>
+      <div class="body-text">Mike builds open-source AI tools for agencies, marketers, and operators who are done waiting for software to catch up. All Arc Web projects are open source by default — fork them, extend them, ship them.</div>
     </div>
   </div>
 </div>
 
 <div id="nav"></div>
-<div id="counter">1 / 4</div>
+<div id="counter">1 / 8</div>
 <div id="hint">\u2190 \u2192 arrow keys to navigate</div>
 
 <script>
